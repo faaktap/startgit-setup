@@ -2,7 +2,7 @@
 
 <h2>Since I use git only very rarely, I will add this to refresh my memory</h2>
 <ol>
-<li>Run <i>D:\Program\Portable-Git\zmlsetup</i> in your freshly created folder.
+<li>Run <i>D:\Programs\PortableGit\zmlsetup</i> in your freshly created folder.
 <li>Now do <i>git add <filename></i> , or git add *</i> to add files in the folder to the project
 <li>Do a <i>git commit -m "Commit message"</i> every now and then
 <li>Do a <i>git remote add origin https://github.com/faaktap/PROJECTNAME.git</i> once you see it's viable
