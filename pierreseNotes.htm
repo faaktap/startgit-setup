@@ -1,0 +1,27 @@
+<html>
+<pre>
+Die git proses loop so (sal dit heel moontlik moet verander agv whatever finnicky goed)
+- kry die local folder reg met al die basics in
+- git init
+- git config --global user.name 'Jou Naam'
+- git config --global user.email 'my@email.address'
+- git add filename   e.g. git add index.html   of git add *
+- die file(s) wat geadd is is nou in commit
+- git status    wys files wat geadd is en in rooi wat nie geadd is nie
+- git add *     add alle files in folder
+- git add .      add alles asook wat in subfolders/sub-subfolders is
+- as files nie wys met git status nie, check of dit in .gitignore is
+- git rm --cached filename     haal die file uit commit
+As jy n file verander NA dit in commit gesit is moet jy weer git add filename doen.
+- git commit    maak editor oop. Sit n comment in, save, quit
+- git commit -m 'comment' doen dieselfde
+
+.gitignore      bevat lys van files wat ignore moet word. gebruik /dir/filename of /dir om file of hele dir te ignore
+.gitignore word ook commit met git add filename
+
+- git branch somedescriptivename     om te btanch van master af.
+- git checkout somedescrptivename    switch na somedescriptivename branch toe
+Alles wat in branch create word word weegesteek as jy terug switch na master
+
+- gitmerge somedescriptivename     SWITCH EERS NA master. om die branch te merge met master. dit werk weer via edirot vir comment
+</pre>
