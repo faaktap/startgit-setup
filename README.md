@@ -1,5 +1,11 @@
 <html>
 
+  <h2> Credential problems on swop from paswswords to keys </h2>
+  to fix it so you can login to fit from command line, use:
+  <pre>git config --global credential.helper store</pre>
+  <br>Best is to ask to use it via browser...
+  
+  <br>
 <h2>Since I use git only very rarely, I will add this to refresh my memory</h2>
 <ol>
 <li>Run <i>D:\Programs\PortableGit\zmlsetup</i> in your freshly created folder.
