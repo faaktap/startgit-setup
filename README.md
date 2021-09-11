@@ -31,6 +31,8 @@ git config --list
 
 //store your username and password locally faaktap, ******
 git config --global credential.helper store
+<b>****
+Easier is to </b>download gh (github CLI) and then type gh auth login on the command line
 
 
 git help <verb>
